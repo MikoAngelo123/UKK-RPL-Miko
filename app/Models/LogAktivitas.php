@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class LogAktivitas extends Model
+{
+    use HasFactory;
+
+    protected $table = 'log_aktivitas';
+
+    protected $fillable = [
+        'user_id',
+        'aktivitas',
+        'ip_address',
+    ];
+
+    /**
+     * Relasi ke User yang melakukan aktivitas.
+     */
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    /**
+     * Static helper untuk mencatat log dengan mudah.
+     */
+    public static function catat(?int $userId, string $aktivitas): void
+    {
+        self::create([
+            'user_id' => $userId,
+            'aktivitas' => $aktivitas,
+            'ip_address' => request()->ip(),
+        ]);
+    }
+}
