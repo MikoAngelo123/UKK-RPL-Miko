@@ -117,7 +117,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lingkungan komputer 
 ### 1. Clone Repositori
 ```bash
 git clone https://github.com/Artvael/UKK-RPL.git
-cd UKK-RPL
+cd UKK-RPL-Miko
 ```
 
 ### 2. Install Dependensi PHP
