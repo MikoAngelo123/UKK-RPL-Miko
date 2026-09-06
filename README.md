@@ -1,4 +1,4 @@
-# 📦 Sistem Informasi Peminjaman Sarana & Inventaris Sekolah (PinjamSarpras)
+# 📦 Sistem Informasi Peminjaman Sarana & Inventaris Sekolah 
 > **Uji Kompetensi Keahlian (UKK) Rekayasa Perangkat Lunak (RPL) 2026 — Paket 1**
 
 ![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
