@@ -288,7 +288,7 @@ Akses aplikasi di browser: **`http://127.0.0.1:8000`**
 Berdasarkan lembar instrumen penilaian Uji Kompetensi Keahlian (UKK) RPL 2026:
 
 - [x] **1. Project Laravel berhasil dijalankan:** Terverifikasi berjalan mulus pada server lokal.
-- [x] **2. Database MySQL berhasil dibuat:** Skema tabel dan relasi foreign key lengkap (Dump: [`database_peminjaman_sarpras.sql`](database_peminjaman_sarpras.sql)).
+- [x] **2. Database MySQL berhasil dibuat:** Skema tabel dan relasi foreign key lengkap (Dump: [`database_peminjaman_sarpras.sql`](database_peminjaman_barang.sql)).
 - [x] **3. Panel Admin berhasil diakses:** Dashboard lengkap dengan visualisasi KPI, grafik status, dan aksi cepat.
 - [x] **4. CRUD User / Role:** Tambah, edit, filter role, dan hapus user dengan validasi keamanan.
 - [x] **5. CRUD Kategori:** Manajemen kategori sarana prasarana sekolah dengan modal interaktif.
